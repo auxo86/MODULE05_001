@@ -13,6 +13,7 @@ namespace MODULE05_001
         {
             AreaRegistration.RegisterAllAreas();
             RouteConfig.RegisterRoutes(RouteTable.Routes);
+            //設定全域錯誤處理
             GlobalFilters.Filters.Add(new HandleErrorAttribute());
         }
     }
